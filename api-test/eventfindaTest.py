@@ -18,8 +18,9 @@ base64string = base64.encodestring(('%s:%s' % (username, password)).encode()).de
 request.add_header("Authorization", "Basic %s" % base64string)
 
 result = urlopen(request)
-# print(result)
+
 data = json.load(result)
+print(data)
 
 for event in data["events"]:
     print(event["name"])

@@ -1,0 +1,4813 @@
+{
+  '@attributes': {
+    'count': 107
+  },
+  'events': [
+    {
+      'id': 19086,
+      'url': 'https://www.eventfinda.sg/2019/gallery-childrens-biennale-2019-embracing-wonder/singapore/city-hall',
+      'url_slug': '2019/gallery-childrens-biennale-2019-embracing-wonder/singapore/city-hall',
+      'name': "Gallery Children's Biennale 2019: Embracing Wonder",
+      'presented_by': '',
+      'description': 'National Gallery Singapore, winner of the 2018 Children’s Museum Award, returns with Gallery Children’s Biennale. This second bi-yearly edition, titled Gallery Children’s Biennale 2019: Embracing Wonder, invites ...',
+      'datetime_start': '2019-05-25 10:00:00',
+      'datetime_end': '2019-12-29 19:00:00',
+      'location_summary': 'National Gallery Singapore, City Hall, Singapore',
+      'address': "1 St Andrew's Road #01-01, City Hall, Singapore",
+      'is_free': False,
+      'is_featured': False,
+      'is_cancelled': False,
+      'restrictions': 'All ages',
+      'point': {
+        'lat': 1.2906,
+        'lng': 103.8518
+      },
+      'username': 'keith',
+      'timezone': 'Asia/Singapore',
+      'location': {
+        'id': 1905,
+        'name': 'National Gallery Singapore',
+        'summary': 'National Gallery Singapore, City Hall, Singapore',
+        'url_slug': 'national-gallery-singapore-city-hall',
+        'is_venue': True,
+        'count_current_events': 1,
+        'description': 'National Gallery Singapore is a new visual arts institution which oversees the largest public collection of modern art in Singapore and Southeast Asia. The Gallery is housed in two national monuments—former Supreme ...',
+        'images': {
+          '@attributes': {
+            'count': 1
+          },
+          'images': [
+            {
+              'id': 27587,
+              'is_primary': True,
+              'transforms': {
+                '@attributes': {
+                  'count': 4
+                },
+                'transforms': [
+                  {
+                    'transformation_id': 2,
+                    'url': '//cdn.eventfinda.sg/uploads/locations/transformed/27587-1905-2.png',
+                    'width': 80,
+                    'height': 31
+                  },
+                  {
+                    'transformation_id': 15,
+                    'url': '//cdn.eventfinda.sg/uploads/locations/transformed/27587-1905-15.png',
+                    'width': 75,
+                    'height': 75
+                  },
+                  {
+                    'transformation_id': 8,
+                    'url': '//cdn.eventfinda.sg/uploads/locations/transformed/27587-1905-8.png',
+                    'width': 190,
+                    'height': 127
+                  },
+                  {
+                    'transformation_id': 7,
+                    'url': '//cdn.eventfinda.sg/uploads/locations/transformed/27587-1905-7.png',
+                    'width': 650,
+                    'height': 280
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        'point': {
+          'lat': 1.2906,
+          'lng': 103.8518
+        }
+      },
+      'category': {
+        'id': 5,
+        'name': 'Children / Kids',
+        'url_slug': 'children-kids',
+        'parent_id': 190,
+        'count_current_events': 2
+      },
+      'datetime_summary': 'Tue  6 Aug - Sun 29 Dec',
+      'external_reference': None,
+      'sessions': {
+        '@attributes': {
+          'count': 219
+        },
+        'sessions': [
+          {
+            'id': 80697,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-25 10:00:00',
+            'datetime_end': '2019-05-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 25 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80698,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-26 10:00:00',
+            'datetime_end': '2019-05-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 26 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80699,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-27 10:00:00',
+            'datetime_end': '2019-05-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 27 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80700,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-28 10:00:00',
+            'datetime_end': '2019-05-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 28 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80701,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-29 10:00:00',
+            'datetime_end': '2019-05-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 29 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80702,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-30 10:00:00',
+            'datetime_end': '2019-05-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 30 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80703,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-05-31 10:00:00',
+            'datetime_end': '2019-05-31 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 31 May, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80704,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-01 10:00:00',
+            'datetime_end': '2019-06-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  1 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80705,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-02 10:00:00',
+            'datetime_end': '2019-06-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  2 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80706,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-03 10:00:00',
+            'datetime_end': '2019-06-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  3 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80707,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-04 10:00:00',
+            'datetime_end': '2019-06-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  4 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80708,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-05 10:00:00',
+            'datetime_end': '2019-06-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  5 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80709,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-06 10:00:00',
+            'datetime_end': '2019-06-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  6 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80710,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-07 10:00:00',
+            'datetime_end': '2019-06-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  7 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80711,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-08 10:00:00',
+            'datetime_end': '2019-06-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  8 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80712,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-09 10:00:00',
+            'datetime_end': '2019-06-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  9 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80713,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-10 10:00:00',
+            'datetime_end': '2019-06-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 10 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80714,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-11 10:00:00',
+            'datetime_end': '2019-06-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 11 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80715,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-12 10:00:00',
+            'datetime_end': '2019-06-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 12 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80716,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-13 10:00:00',
+            'datetime_end': '2019-06-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 13 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80717,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-14 10:00:00',
+            'datetime_end': '2019-06-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 14 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80718,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-15 10:00:00',
+            'datetime_end': '2019-06-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 15 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80719,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-16 10:00:00',
+            'datetime_end': '2019-06-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 16 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80720,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-17 10:00:00',
+            'datetime_end': '2019-06-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 17 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80721,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-18 10:00:00',
+            'datetime_end': '2019-06-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 18 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80722,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-19 10:00:00',
+            'datetime_end': '2019-06-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 19 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80723,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-20 10:00:00',
+            'datetime_end': '2019-06-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 20 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80724,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-21 10:00:00',
+            'datetime_end': '2019-06-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 21 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80725,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-22 10:00:00',
+            'datetime_end': '2019-06-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 22 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80726,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-23 10:00:00',
+            'datetime_end': '2019-06-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 23 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80727,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-24 10:00:00',
+            'datetime_end': '2019-06-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 24 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80728,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-25 10:00:00',
+            'datetime_end': '2019-06-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 25 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80729,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-26 10:00:00',
+            'datetime_end': '2019-06-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 26 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80730,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-27 10:00:00',
+            'datetime_end': '2019-06-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 27 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80731,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-28 10:00:00',
+            'datetime_end': '2019-06-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 28 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80732,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-29 10:00:00',
+            'datetime_end': '2019-06-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 29 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80733,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-06-30 10:00:00',
+            'datetime_end': '2019-06-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 30 Jun, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80734,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-01 10:00:00',
+            'datetime_end': '2019-07-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  1 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80735,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-02 10:00:00',
+            'datetime_end': '2019-07-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  2 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80736,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-03 10:00:00',
+            'datetime_end': '2019-07-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  3 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80737,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-04 10:00:00',
+            'datetime_end': '2019-07-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  4 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80738,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-05 10:00:00',
+            'datetime_end': '2019-07-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  5 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80739,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-06 10:00:00',
+            'datetime_end': '2019-07-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  6 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80740,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-07 10:00:00',
+            'datetime_end': '2019-07-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  7 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80741,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-08 10:00:00',
+            'datetime_end': '2019-07-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  8 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80742,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-09 10:00:00',
+            'datetime_end': '2019-07-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  9 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80743,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-10 10:00:00',
+            'datetime_end': '2019-07-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 10 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80744,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-11 10:00:00',
+            'datetime_end': '2019-07-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 11 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80745,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-12 10:00:00',
+            'datetime_end': '2019-07-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 12 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80746,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-13 10:00:00',
+            'datetime_end': '2019-07-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 13 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80747,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-14 10:00:00',
+            'datetime_end': '2019-07-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 14 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80748,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-15 10:00:00',
+            'datetime_end': '2019-07-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 15 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80749,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-16 10:00:00',
+            'datetime_end': '2019-07-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 16 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80750,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-17 10:00:00',
+            'datetime_end': '2019-07-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 17 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80751,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-18 10:00:00',
+            'datetime_end': '2019-07-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 18 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80752,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-19 10:00:00',
+            'datetime_end': '2019-07-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 19 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80753,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-20 10:00:00',
+            'datetime_end': '2019-07-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 20 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80754,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-21 10:00:00',
+            'datetime_end': '2019-07-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 21 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80755,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-22 10:00:00',
+            'datetime_end': '2019-07-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 22 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80756,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-23 10:00:00',
+            'datetime_end': '2019-07-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 23 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80757,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-24 10:00:00',
+            'datetime_end': '2019-07-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 24 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80758,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-25 10:00:00',
+            'datetime_end': '2019-07-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 25 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80759,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-26 10:00:00',
+            'datetime_end': '2019-07-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 26 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80760,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-27 10:00:00',
+            'datetime_end': '2019-07-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 27 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80761,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-28 10:00:00',
+            'datetime_end': '2019-07-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 28 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80762,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-29 10:00:00',
+            'datetime_end': '2019-07-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 29 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80763,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-30 10:00:00',
+            'datetime_end': '2019-07-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 30 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80764,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-31 10:00:00',
+            'datetime_end': '2019-07-31 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 31 Jul, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80765,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-01 10:00:00',
+            'datetime_end': '2019-08-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  1 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80766,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-02 10:00:00',
+            'datetime_end': '2019-08-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  2 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80767,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-03 10:00:00',
+            'datetime_end': '2019-08-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  3 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80768,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-04 10:00:00',
+            'datetime_end': '2019-08-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  4 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80769,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-05 10:00:00',
+            'datetime_end': '2019-08-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  5 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80770,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-06 10:00:00',
+            'datetime_end': '2019-08-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  6 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80771,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-07 10:00:00',
+            'datetime_end': '2019-08-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  7 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80772,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-08 10:00:00',
+            'datetime_end': '2019-08-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  8 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80773,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-09 10:00:00',
+            'datetime_end': '2019-08-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  9 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80774,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-10 10:00:00',
+            'datetime_end': '2019-08-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 10 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80775,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-11 10:00:00',
+            'datetime_end': '2019-08-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 11 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80776,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-12 10:00:00',
+            'datetime_end': '2019-08-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 12 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80777,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-13 10:00:00',
+            'datetime_end': '2019-08-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 13 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80778,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-14 10:00:00',
+            'datetime_end': '2019-08-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 14 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80779,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-15 10:00:00',
+            'datetime_end': '2019-08-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 15 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80780,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-16 10:00:00',
+            'datetime_end': '2019-08-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 16 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80781,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-17 10:00:00',
+            'datetime_end': '2019-08-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 17 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80782,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-18 10:00:00',
+            'datetime_end': '2019-08-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 18 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80783,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-19 10:00:00',
+            'datetime_end': '2019-08-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 19 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80784,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-20 10:00:00',
+            'datetime_end': '2019-08-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 20 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80785,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-21 10:00:00',
+            'datetime_end': '2019-08-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 21 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80786,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-22 10:00:00',
+            'datetime_end': '2019-08-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 22 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80787,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-23 10:00:00',
+            'datetime_end': '2019-08-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 23 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80788,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-24 10:00:00',
+            'datetime_end': '2019-08-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 24 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80789,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-25 10:00:00',
+            'datetime_end': '2019-08-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 25 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80790,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-26 10:00:00',
+            'datetime_end': '2019-08-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 26 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80791,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-27 10:00:00',
+            'datetime_end': '2019-08-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 27 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80792,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-28 10:00:00',
+            'datetime_end': '2019-08-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 28 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80793,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-29 10:00:00',
+            'datetime_end': '2019-08-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 29 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80794,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-30 10:00:00',
+            'datetime_end': '2019-08-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 30 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80795,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-08-31 10:00:00',
+            'datetime_end': '2019-08-31 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 31 Aug, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80796,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-01 10:00:00',
+            'datetime_end': '2019-09-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  1 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80797,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-02 10:00:00',
+            'datetime_end': '2019-09-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  2 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80798,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-03 10:00:00',
+            'datetime_end': '2019-09-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  3 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80799,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-04 10:00:00',
+            'datetime_end': '2019-09-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  4 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80800,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-05 10:00:00',
+            'datetime_end': '2019-09-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  5 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80801,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-06 10:00:00',
+            'datetime_end': '2019-09-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  6 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80802,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-07 10:00:00',
+            'datetime_end': '2019-09-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  7 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80803,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-08 10:00:00',
+            'datetime_end': '2019-09-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  8 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80804,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-09 10:00:00',
+            'datetime_end': '2019-09-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  9 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80805,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-10 10:00:00',
+            'datetime_end': '2019-09-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 10 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80806,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-11 10:00:00',
+            'datetime_end': '2019-09-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 11 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80807,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-12 10:00:00',
+            'datetime_end': '2019-09-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 12 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80808,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-13 10:00:00',
+            'datetime_end': '2019-09-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 13 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80809,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-14 10:00:00',
+            'datetime_end': '2019-09-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 14 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80810,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-15 10:00:00',
+            'datetime_end': '2019-09-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 15 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80811,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-16 10:00:00',
+            'datetime_end': '2019-09-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 16 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80812,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-17 10:00:00',
+            'datetime_end': '2019-09-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 17 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80813,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-18 10:00:00',
+            'datetime_end': '2019-09-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 18 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80814,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-19 10:00:00',
+            'datetime_end': '2019-09-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 19 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80815,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-20 10:00:00',
+            'datetime_end': '2019-09-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 20 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80816,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-21 10:00:00',
+            'datetime_end': '2019-09-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 21 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80817,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-22 10:00:00',
+            'datetime_end': '2019-09-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 22 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80818,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-23 10:00:00',
+            'datetime_end': '2019-09-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 23 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80819,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-24 10:00:00',
+            'datetime_end': '2019-09-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 24 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80820,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-25 10:00:00',
+            'datetime_end': '2019-09-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 25 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80821,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-26 10:00:00',
+            'datetime_end': '2019-09-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 26 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80822,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-27 10:00:00',
+            'datetime_end': '2019-09-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 27 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80823,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-28 10:00:00',
+            'datetime_end': '2019-09-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 28 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80824,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-29 10:00:00',
+            'datetime_end': '2019-09-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 29 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80825,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-09-30 10:00:00',
+            'datetime_end': '2019-09-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 30 Sep, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80826,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-01 10:00:00',
+            'datetime_end': '2019-10-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  1 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80827,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-02 10:00:00',
+            'datetime_end': '2019-10-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  2 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80828,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-03 10:00:00',
+            'datetime_end': '2019-10-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  3 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80829,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-04 10:00:00',
+            'datetime_end': '2019-10-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  4 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80830,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-05 10:00:00',
+            'datetime_end': '2019-10-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  5 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80831,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-06 10:00:00',
+            'datetime_end': '2019-10-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  6 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80832,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-07 10:00:00',
+            'datetime_end': '2019-10-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  7 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80833,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-08 10:00:00',
+            'datetime_end': '2019-10-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  8 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80834,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-09 10:00:00',
+            'datetime_end': '2019-10-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  9 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80835,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-10 10:00:00',
+            'datetime_end': '2019-10-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 10 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80836,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-11 10:00:00',
+            'datetime_end': '2019-10-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 11 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80837,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-12 10:00:00',
+            'datetime_end': '2019-10-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 12 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80838,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-13 10:00:00',
+            'datetime_end': '2019-10-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 13 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80839,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-14 10:00:00',
+            'datetime_end': '2019-10-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 14 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80840,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-15 10:00:00',
+            'datetime_end': '2019-10-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 15 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80841,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-16 10:00:00',
+            'datetime_end': '2019-10-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 16 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80842,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-17 10:00:00',
+            'datetime_end': '2019-10-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 17 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80843,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-18 10:00:00',
+            'datetime_end': '2019-10-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 18 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80844,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-19 10:00:00',
+            'datetime_end': '2019-10-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 19 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80845,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-20 10:00:00',
+            'datetime_end': '2019-10-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 20 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80846,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-21 10:00:00',
+            'datetime_end': '2019-10-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 21 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80847,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-22 10:00:00',
+            'datetime_end': '2019-10-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 22 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80848,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-23 10:00:00',
+            'datetime_end': '2019-10-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 23 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80849,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-24 10:00:00',
+            'datetime_end': '2019-10-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 24 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80850,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-25 10:00:00',
+            'datetime_end': '2019-10-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 25 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80851,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-26 10:00:00',
+            'datetime_end': '2019-10-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 26 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80852,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-27 10:00:00',
+            'datetime_end': '2019-10-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 27 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80853,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-28 10:00:00',
+            'datetime_end': '2019-10-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 28 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80854,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-29 10:00:00',
+            'datetime_end': '2019-10-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 29 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80855,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-30 10:00:00',
+            'datetime_end': '2019-10-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 30 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80856,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-31 10:00:00',
+            'datetime_end': '2019-10-31 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 31 Oct, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80857,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-01 10:00:00',
+            'datetime_end': '2019-11-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  1 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80858,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-02 10:00:00',
+            'datetime_end': '2019-11-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  2 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80859,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-03 10:00:00',
+            'datetime_end': '2019-11-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  3 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80860,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-04 10:00:00',
+            'datetime_end': '2019-11-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  4 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80861,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-05 10:00:00',
+            'datetime_end': '2019-11-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  5 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80862,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-06 10:00:00',
+            'datetime_end': '2019-11-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  6 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80863,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-07 10:00:00',
+            'datetime_end': '2019-11-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  7 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80864,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-08 10:00:00',
+            'datetime_end': '2019-11-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  8 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80865,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-09 10:00:00',
+            'datetime_end': '2019-11-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  9 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80866,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-10 10:00:00',
+            'datetime_end': '2019-11-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 10 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80867,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-11 10:00:00',
+            'datetime_end': '2019-11-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 11 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80868,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-12 10:00:00',
+            'datetime_end': '2019-11-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 12 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80869,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-13 10:00:00',
+            'datetime_end': '2019-11-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 13 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80870,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-14 10:00:00',
+            'datetime_end': '2019-11-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 14 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80871,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-15 10:00:00',
+            'datetime_end': '2019-11-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 15 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80872,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-16 10:00:00',
+            'datetime_end': '2019-11-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 16 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80873,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-17 10:00:00',
+            'datetime_end': '2019-11-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 17 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80874,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-18 10:00:00',
+            'datetime_end': '2019-11-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 18 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80875,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-19 10:00:00',
+            'datetime_end': '2019-11-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 19 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80876,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-20 10:00:00',
+            'datetime_end': '2019-11-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 20 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80877,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-21 10:00:00',
+            'datetime_end': '2019-11-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 21 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80878,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-22 10:00:00',
+            'datetime_end': '2019-11-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 22 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80879,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-23 10:00:00',
+            'datetime_end': '2019-11-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 23 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80880,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-24 10:00:00',
+            'datetime_end': '2019-11-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 24 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80881,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-25 10:00:00',
+            'datetime_end': '2019-11-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 25 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80882,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-26 10:00:00',
+            'datetime_end': '2019-11-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 26 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80883,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-27 10:00:00',
+            'datetime_end': '2019-11-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 27 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80884,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-28 10:00:00',
+            'datetime_end': '2019-11-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 28 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80885,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-29 10:00:00',
+            'datetime_end': '2019-11-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 29 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80886,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-11-30 10:00:00',
+            'datetime_end': '2019-11-30 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 30 Nov, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80887,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-01 10:00:00',
+            'datetime_end': '2019-12-01 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  1 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80888,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-02 10:00:00',
+            'datetime_end': '2019-12-02 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  2 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80889,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-03 10:00:00',
+            'datetime_end': '2019-12-03 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue  3 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80890,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-04 10:00:00',
+            'datetime_end': '2019-12-04 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed  4 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80891,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-05 10:00:00',
+            'datetime_end': '2019-12-05 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu  5 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80892,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-06 10:00:00',
+            'datetime_end': '2019-12-06 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri  6 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80893,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-07 10:00:00',
+            'datetime_end': '2019-12-07 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat  7 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80894,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-08 10:00:00',
+            'datetime_end': '2019-12-08 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun  8 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80895,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-09 10:00:00',
+            'datetime_end': '2019-12-09 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon  9 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80896,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-10 10:00:00',
+            'datetime_end': '2019-12-10 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 10 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80897,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-11 10:00:00',
+            'datetime_end': '2019-12-11 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 11 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80898,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-12 10:00:00',
+            'datetime_end': '2019-12-12 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 12 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80899,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-13 10:00:00',
+            'datetime_end': '2019-12-13 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 13 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80900,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-14 10:00:00',
+            'datetime_end': '2019-12-14 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 14 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80901,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-15 10:00:00',
+            'datetime_end': '2019-12-15 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 15 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80902,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-16 10:00:00',
+            'datetime_end': '2019-12-16 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 16 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80903,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-17 10:00:00',
+            'datetime_end': '2019-12-17 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 17 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80904,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-18 10:00:00',
+            'datetime_end': '2019-12-18 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 18 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80905,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-19 10:00:00',
+            'datetime_end': '2019-12-19 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 19 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80906,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-20 10:00:00',
+            'datetime_end': '2019-12-20 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 20 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80907,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-21 10:00:00',
+            'datetime_end': '2019-12-21 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 21 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80908,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-22 10:00:00',
+            'datetime_end': '2019-12-22 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 22 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80909,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-23 10:00:00',
+            'datetime_end': '2019-12-23 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Mon 23 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80910,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-24 10:00:00',
+            'datetime_end': '2019-12-24 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Tue 24 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80911,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-25 10:00:00',
+            'datetime_end': '2019-12-25 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Wed 25 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80912,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-26 10:00:00',
+            'datetime_end': '2019-12-26 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Thu 26 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80913,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-27 10:00:00',
+            'datetime_end': '2019-12-27 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Fri 27 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80914,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-28 10:00:00',
+            'datetime_end': '2019-12-28 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sat 28 Dec, 10:00am -  7:00pm'
+          },
+          {
+            'id': 80915,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-12-29 10:00:00',
+            'datetime_end': '2019-12-29 19:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 0
+              },
+              'session_tickets': []
+            },
+            'datetime_summary': 'Sun 29 Dec, 10:00am -  7:00pm'
+          }
+        ]
+      },
+      'ticket_types': {
+        '@attributes': {
+          'count': 0
+        },
+        'ticket_types': []
+      },
+      'artists': {
+        '@attributes': {
+          'count': 0
+        },
+        'artists': []
+      },
+      'web_sites': {
+        '@attributes': {
+          'count': 1
+        },
+        'web_sites': [
+          {
+            'url': 'http://www.childrensbiennale.com ',
+            'name': 'Childrens Biennale'
+          }
+        ]
+      },
+      'images': {
+        '@attributes': {
+          'count': 2
+        },
+        'images': [
+          {
+            'id': 42063,
+            'is_primary': True,
+            'transforms': {
+              '@attributes': {
+                'count': 5
+              },
+              'transforms': [
+                {
+                  'transformation_id': 2,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42063-19086-2.jpg',
+                  'width': 80,
+                  'height': 45
+                },
+                {
+                  'transformation_id': 15,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42063-19086-15.jpg',
+                  'width': 75,
+                  'height': 75
+                },
+                {
+                  'transformation_id': 8,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42063-19086-8.jpg',
+                  'width': 190,
+                  'height': 127
+                },
+                {
+                  'transformation_id': 27,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42063-19086-27.jpg',
+                  'width': 350,
+                  'height': 350
+                },
+                {
+                  'transformation_id': 7,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42063-19086-7.jpg?v=2',
+                  'width': 650,
+                  'height': 280
+                }
+              ]
+            }
+          },
+          {
+            'id': 42062,
+            'is_primary': False,
+            'transforms': {
+              '@attributes': {
+                'count': 5
+              },
+              'transforms': [
+                {
+                  'transformation_id': 2,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42062-19086-2.jpg',
+                  'width': 80,
+                  'height': 45
+                },
+                {
+                  'transformation_id': 15,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42062-19086-15.jpg',
+                  'width': 75,
+                  'height': 75
+                },
+                {
+                  'transformation_id': 8,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42062-19086-8.jpg',
+                  'width': 190,
+                  'height': 127
+                },
+                {
+                  'transformation_id': 27,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42062-19086-27.jpg',
+                  'width': 350,
+                  'height': 350
+                },
+                {
+                  'transformation_id': 7,
+                  'url': '//cdn.eventfinda.sg/uploads/events/transformed/42062-19086-7.jpg',
+                  'width': 650,
+                  'height': 280
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      'id': 19163,
+      'url': 'https://www.eventfinda.sg/2019/leaders-of-tomorrow/singapore/orchard-road',
+      'url_slug': '2019/leaders-of-tomorrow/singapore/orchard-road',
+      'name': 'Leaders of Tomorrow',
+      'presented_by': '',
+      'description': 'This Leadership workshop offers the opportunity to achieve a profound experience and understanding on how to lead people, especially as you work in teams. This understanding leads to more effective leadership behaviours, ...',
+      'datetime_start': '2019-07-09 09:00:00',
+      'datetime_end': '2019-10-18 17:00:00',
+      'location_summary': 'Royal Plaza On Scotts, Orchard Road, Singapore',
+      'address': '25 Scotts Road, Orchard Road, Singapore',
+      'is_free': False,
+      'is_featured': False,
+      'is_cancelled': False,
+      'restrictions': 'All ages',
+      'point': {
+        'lat': 1.3071,
+        'lng': 103.8325
+      },
+      'username': 'manage',
+      'timezone': 'Asia/Singapore',
+      'location': {
+        'id': 1774,
+        'name': 'Royal Plaza On Scotts',
+        'summary': 'Royal Plaza On Scotts, Orchard Road, Singapore',
+        'url_slug': 'royal-plaza-on-scotts-singapore',
+        'is_venue': True,
+        'count_current_events': 29,
+        'description': '',
+        'images': {
+          '@attributes': {
+            'count': 1
+          },
+          'images': [
+            {
+              'id': None,
+              'is_primary': True,
+              'transforms': {
+                '@attributes': {
+                  'count': 5
+                },
+                'transforms': [
+                  {
+                    'transformation_id': 2,
+                    'url': '//cdn.eventfinda.sg/images/global/iconVenue-2.png',
+                    'width': 80,
+                    'height': 80
+                  },
+                  {
+                    'transformation_id': 15,
+                    'url': '//cdn.eventfinda.sg/images/global/iconVenue-15.png',
+                    'width': 75,
+                    'height': 75
+                  },
+                  {
+                    'transformation_id': 8,
+                    'url': '//cdn.eventfinda.sg/images/global/iconVenue-8.png',
+                    'width': 190,
+                    'height': 127
+                  },
+                  {
+                    'transformation_id': 27,
+                    'url': '//cdn.eventfinda.sg/images/global/iconVenue-27.png',
+                    'width': 350,
+                    'height': 350
+                  },
+                  {
+                    'transformation_id': 7,
+                    'url': '//cdn.eventfinda.sg/images/global/iconVenue-7.png',
+                    'width': 650,
+                    'height': 280
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        'point': {
+          'lat': 1.3071,
+          'lng': 103.8325
+        }
+      },
+      'category': {
+        'id': 267,
+        'name': 'Workshops',
+        'url_slug': 'workshops',
+        'parent_id': 3,
+        'count_current_events': 45
+      },
+      'datetime_summary': 'Thu 17 Oct - Fri 18 Oct',
+      'external_reference': None,
+      'sessions': {
+        '@attributes': {
+          'count': 4
+        },
+        'sessions': [
+          {
+            'id': 81212,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-09 09:00:00',
+            'datetime_end': '2019-07-09 17:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 3
+              },
+              'session_tickets': [
+                {
+                  'id': 73069,
+                  'name': 'Early Bird',
+                  'price': '727.60',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73073,
+                  'name': 'Normal',
+                  'price': '791.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73077,
+                  'name': 'Members',
+                  'price': '684.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                }
+              ]
+            },
+            'datetime_summary': 'Tue  9 Jul,  9:00am -  5:00pm'
+          },
+          {
+            'id': 81213,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-07-10 09:00:00',
+            'datetime_end': '2019-07-10 17:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 3
+              },
+              'session_tickets': [
+                {
+                  'id': 73066,
+                  'name': 'Early Bird',
+                  'price': '727.60',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73070,
+                  'name': 'Normal',
+                  'price': '791.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73074,
+                  'name': 'Members',
+                  'price': '684.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                }
+              ]
+            },
+            'datetime_summary': 'Wed 10 Jul,  9:00am -  5:00pm'
+          },
+          {
+            'id': 81214,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-17 09:00:00',
+            'datetime_end': '2019-10-17 17:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 3
+              },
+              'session_tickets': [
+                {
+                  'id': 73067,
+                  'name': 'Early Bird',
+                  'price': '727.60',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73071,
+                  'name': 'Normal',
+                  'price': '791.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73075,
+                  'name': 'Members',
+                  'price': '684.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                }
+              ]
+            },
+            'datetime_summary': 'Thu 17 Oct,  9:00am -  5:00pm'
+          },
+          {
+            'id': 81215,
+            'timezone': 'Asia/Singapore',
+            'datetime_start': '2019-10-18 09:00:00',
+            'datetime_end': '2019-10-18 17:00:00',
+            'is_cancelled': False,
+            'is_ticketed': False,
+            'is_currently_onsale': None,
+            'is_for_tickets_only': None,
+            'ticketing_label': None,
+            'offsale_at': None,
+            'session_tickets': {
+              '@attributes': {
+                'count': 3
+              },
+              'session_tickets': [
+                {
+                  'id': 73068,
+                  'name': 'Early Bird',
+                  'price': '727.60',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73072,
+                  'name': 'Normal',
+                  'price': '791.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                },
+                {
+                  'id': 73076,
+                  'name': 'Members',
+                  'price': '684.80',
+                  'is_ticketed': False,
+                  'description': None,
+                  'minimum_purchase_quantity': None,
+                  'is_addon': None,
+                  'onsale_at': None,
+                  'offsale_at': None,
+                  'is_sold_out': False,
+                  'is_limited_remaining': False
+                }
+              ]
+            },
+            'datetime_summary': 'Fri 18 Oct,  9:00am -  5:00pm'
+          }
+        ]
+      },
+      'ticket_types': {
+        '@attributes': {
+          'count': 3
+        },
+        'ticket_types': [
+          {
+            'id': 23194,
+            'name': 'Early Bird',
+            'price': '727.60',
+            'is_ticketed': False,
+            'description': None,
+            'minimum_purchase_quantity': None,
+            'is_addon': None,
+            'onsale_at': None,
+            'offsale_at': None
+          },
+          {
+            'id': 23195,
+            'name': 'Normal',
+            'price': '791.80',
+            'is_ticketed': False,
+            'description': None,
+            'minimum_purchase_quantity': None,
+            'is_addon': None,
+            'onsale_at': None,
+            'offsale_at': None
+          },
+          {
+            'id': 23196,
+            'name': 'Members',
+            'price': '684.80',
+            'is_ticketed': False,
+            'description': None,
+            'minimum_purchase_quantity': None,
+            'is_addon': None,
+            'onsale_at': None,
+            'offsale_at': None
+          }
+        ]
+      },
+      'artists': {
+        '@attributes': {
+          'count': 0
+        },
+        'artists': []
+      },
+      'web_sites': {
+        '@attributes': {
+          'count': 1
+        },
+        'web_sites': [
+          {
+            'url': 'http://eontraining.com.sg/courses/public-courses/leadership/leaders-of-tomorrow/',
+            'name': 'Leaders of Tomorrow'
+          }
+        ]
+      },
+      'images': {
+        '@attributes': {
+          'count': 1
+        },
+        'images': [
+          {
+            'id': None,
+            'is_primary': True,
+            'transforms': {
+              '@attributes': {
+                'count': 5
+              },
+              'transforms': [
+                {
+                  'transformation_id': 2,
+                  'url': '//cdn.eventfinda.sg/images/global/iconSeminar-2.png?b',
+                  'width': 80,
+                  'height': 80
+                },
+                {
+                  'transformation_id': 15,
+                  'url': '//cdn.eventfinda.sg/images/global/iconSeminar-15.png?b',
+                  'width': 75,
+                  'height': 75
+                },
+                {
+                  'transformation_id': 8,
+                  'url': '//cdn.eventfinda.sg/images/global/iconSeminar-8.png?b',
+                  'width': 190,
+                  'height': 127
+                },
+                {
+                  'transformation_id': 27,
+                  'url': '//cdn.eventfinda.sg/images/global/iconSeminar-27.png?b',
+                  'width': 350,
+                  'height': 350
+                },
+                {
+                  'transformation_id': 7,
+                  'url': '//cdn.eventfinda.sg/images/global/iconSeminar-7.png?b',
+                  'width': 650,
+                  'height': 280
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -36,10 +36,10 @@ def searchEventsByFreeText(queryText):
         else:
             result = result + "; " + event["name"]
 
-        for img in event["images"]["images"]:
-            print(img['id'])
-            for imgtran in img["transforms"]["transforms"]:
-                print(imgtran["url"])
+        # for img in event["images"]["images"]:
+        #     print(img['id'])
+        #     for imgtran in img["transforms"]["transforms"]:
+        #         print(imgtran["url"])
 
     return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
 

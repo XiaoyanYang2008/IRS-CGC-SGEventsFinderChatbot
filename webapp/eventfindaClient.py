@@ -21,27 +21,10 @@ from urllib.request import urlopen, Request
 username = 'schoolprojectgoogleassistantchatbotforsingaporeevents'
 password = 'qbvnn9ynhbt3'
 
-
-def searchEventsByFreeText(queryText):
-    url = f"http://api.eventfinda.sg/v2/events.json?q=({queryText})&rows=5"  # ok
-
-    data = call_api(url)
-
-    result = ''
-
-    for event in data["events"]:
-        print(event["name"])
-        if result == '':
-            result = event["name"]
-        else:
-            result = result + "; " + event["name"]
-
-        # for img in event["images"]["images"]:
-        #     print(img['id'])
-        #     for imgtran in img["transforms"]["transforms"]:
-        #         print(imgtran["url"])
-
-    return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
+fallback_resp = ["Sorry. I do not understand. Can you please rephrase?",
+                 "I did not get your response. Can you please try again?", "I missed what you said. What was that?"]
+resp_prefix = ["Here is an event for you.\n", "You might be interested in this event.\n",
+               "Here is an event you might be interested in.\n"]
 
 
 def call_api(url):
@@ -54,3 +37,39 @@ def call_api(url):
     data = json.load(result)
     print("result of ", url, " : ", data)
     return data
+
+
+def searchEventsByFreeText(queryText):
+    url = f"http://api.eventfinda.sg/v2/events.json?q=({queryText})&rows=5"  # ok
+
+    data = call_api(url)
+
+    fulfillmentMessages = []
+    image = ''
+
+    if data['@attributes']["count"] != 0:
+        for event in data["events"]:
+            card_button = [{"text": "More Details...", "postback": event["url"]}]
+            for image in event['images'].get('images'):
+                for transform in image['transforms'].get('transforms'):
+                    if transform['transformation_id'] == 8:
+                        image = {"url": f"https:{transform['url']}"}
+            card = {
+                "title": event["name"],
+                "subtitle": event["location"]["name"] + " " + event["datetime_summary"],
+                "image": image,
+                "buttons": card_button,
+                "imageDisplayOptions": "CROPPED"
+            }
+            fulfillmentMessages_dict = {"basicCard": card}
+            fulfillmentMessages.append(fulfillmentMessages_dict)
+
+        result = {"fulfillmentMessages": fulfillmentMessages}
+
+    else:
+        result = {"fulfillmentText": fallback_resp[random.randrange(0, 2, 1)]}
+
+    print(result)
+
+    # return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
+    return result

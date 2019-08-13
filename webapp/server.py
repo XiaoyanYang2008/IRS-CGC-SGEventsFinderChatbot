@@ -1,17 +1,10 @@
 from flask import Flask, Response, request
+import random
 
 from eventfindaClient import *
 from util import *
 
 app = Flask(__name__)
-
-coin_dct = construct_coin_dct()
-
-
-def getPriceIntentHandler(coinname):
-    coinname = "".join(coinname.split())
-    price = getprice(coinname, coin_dct)
-    return f"The price of {coinname} is {price}"
 
 
 @app.route("/", methods=["POST"])
@@ -25,13 +18,13 @@ def main():
         resp_text = getPriceIntentHandler(coinname)
     elif intent_name == "SearchEvent":
         queryText = req["queryResult"]["parameters"]["queryText"]
-        resp_text = searchEventsByFreeText(queryText)
+        queryText = (("+".join(queryText)).replace(" ", "-")).lower()
+        resp = searchEventsByFreeText(queryText)
+        # resp = getEventIntentHandler(req)
     else:
-        resp_text = "Unable to find a matching intent. Try again."
-
-    resp = {
-        "fulfillmentText": resp_text
-    }
+        resp = {
+            "fulfillmentText": "Unable to find a matching intent. Try again."
+        }
 
     return Response(json.dumps(resp), status=200, content_type="application/json")
 

@@ -58,10 +58,9 @@ def searchEventsByFreeText(queryText):
                 "title": event["name"],
                 "subtitle": event["location"]["name"] + " " + event["datetime_summary"],
                 "image": image,
-                "buttons": card_button,
-                "imageDisplayOptions": "CROPPED"
+                "buttons": card_button
             }
-            fulfillmentMessages_dict = {"basicCard": card}
+            fulfillmentMessages_dict = {"card": card}
             fulfillmentMessages.append(fulfillmentMessages_dict)
 
         result = {"fulfillmentMessages": fulfillmentMessages}

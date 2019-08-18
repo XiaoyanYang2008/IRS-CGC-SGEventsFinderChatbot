@@ -4,6 +4,7 @@ import random
 from eventfindaClient import *
 from util import *
 
+import weatherClient
 app = Flask(__name__)
 
 
@@ -21,6 +22,11 @@ def main():
         queryText = (("+".join(queryText)).replace(" ", "-")).lower()
         resp = searchEventsByFreeText(queryText)
         # resp = getEventIntentHandler(req)
+    elif intent_name == "GetWeather":
+        resp_text = weatherClient.getWeatherText(req)
+        resp = {
+            "fulfillmentText": resp_text
+        }
     else:
         resp = {
             "fulfillmentText": "Unable to find a matching intent. Try again."

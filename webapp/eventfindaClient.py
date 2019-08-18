@@ -8,6 +8,7 @@ https://www.eventfinda.sg/api/v2/events
 # import json, urllib2, base64
 import base64
 import json
+import random
 
 from urllib.request import urlopen, Request
 
@@ -68,7 +69,7 @@ def searchEventsByFreeText(queryText):
     else:
         result = {"fulfillmentText": fallback_resp[random.randrange(0, 2, 1)]}
 
-    print(result)
+    # print(result)
 
     # return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
-    return result
+    return result, data

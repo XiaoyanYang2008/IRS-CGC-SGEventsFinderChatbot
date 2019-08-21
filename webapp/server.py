@@ -10,7 +10,7 @@ DATATYPE_EVENTS_BY_FREE_TEXT_DATA = 'searchEventsByFreeTextData'
 
 DATATYPE_QUERY_TEXT = 'queryText'
 
-FILE_SESSION_DATA_CSV = './db/session-data.csv'
+FILE_SESSION_DATA_CSV = os.path.join('db', 'session-data.csv')
 
 app = Flask(__name__)
 

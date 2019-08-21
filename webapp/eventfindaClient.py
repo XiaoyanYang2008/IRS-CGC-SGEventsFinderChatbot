@@ -46,30 +46,79 @@ def searchEventsByFreeText(queryText):
     data = call_api(url)
 
     fulfillmentMessages = []
+    suggestions = []
+    items = []
     image = ''
+    fulfillmentMessages_dict = {}
 
     if data['@attributes']["count"] != 0:
         for event in data["events"]:
-            card_button = [{"text": "More Details...", "postback": event["url"]}]
+            card_button = [{"text": "More Details", "postback": 'check ' + event["name"]}]
             for image in event['images'].get('images'):
                 for transform in image['transforms'].get('transforms'):
                     if transform['transformation_id'] == 8:
-                        image = {"url": f"https:{transform['url']}"}
+                        image = {"url": f"https:{transform['url']}",
+                                 "accessibilityText": event["name"]
+                                 }
             card = {
                 "title": event["name"],
                 "subtitle": event["location"]["name"] + " " + event["datetime_summary"],
                 "image": image,
                 "buttons": card_button
             }
-            fulfillmentMessages_dict = {"card": card}
-            fulfillmentMessages.append(fulfillmentMessages_dict)
 
-        result = {"fulfillmentMessages": fulfillmentMessages}
+            item = {
+                "optionInfo": {
+                    "key": event["name"],
+                    "synonyms": [
+                        event["name"]
+                    ]
+                },
+                "description": event["location"]["name"] + " " + event["datetime_summary"],
+                "image": image,
+                "title": event["name"]
+            }
+
+            fulfillmentMessages_dict = {"card": card}
+            # fulfillmentMessages_dict = {"card": item}
+            suggestions.append({"title": event["name"][:23] + '..' if len(event['name']) > 23 else event['name']})
+            fulfillmentMessages.append(fulfillmentMessages_dict)
+            items.append(item)
+
+        result = {
+            "fulfillmentMessages": fulfillmentMessages,
+            "payload": {
+                "google": {
+                    "expectUserResponse": "true",
+                    "isSsml": "false",
+                    "noInputPrompts": [],
+                    "richResponse": {
+                        "items": [
+                            {
+                                "simpleResponse": {
+                                    "textToSpeech": "Here are the results: "
+                                }
+                            }
+                        ],
+                        "suggestions": suggestions
+                    },
+                    "systemIntent": {
+                        "intent": "actions.intent.OPTION",
+                        "data": {
+                            "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+                            "carouselSelect": {
+                                "items": items
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
     else:
         result = {"fulfillmentText": fallback_resp[random.randrange(0, 2, 1)]}
-
-    # print(result)
+    print("\nfulfillmentMessages:\n")
+    print(result)
 
     # return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
     return result, data

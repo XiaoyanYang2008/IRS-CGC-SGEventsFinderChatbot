@@ -9,8 +9,11 @@ https://www.eventfinda.sg/api/v2/events
 import base64
 import json
 import random
-
 from urllib.request import urlopen, Request
+
+import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # url_slugs doesn't seems to work category_slug works for
 
@@ -122,3 +125,35 @@ def searchEventsByFreeText(queryText):
 
     # return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
     return result, data
+
+
+def recommends(filename, searchQuery):
+    querysDF = pd.read_csv(filename)
+    # print('Raw Data: ', querysDF, '\n')
+
+    # loading queryText dataType historical data.
+    querysDF = querysDF[querysDF['dataType'] == 'queryText']
+    querysDF['rawContent'] = querysDF['rawContent'].str.lower()
+    # print('filtered result: ', querysDF[querysDF['dataType'] == 'queryText'], '\n')
+    all_queries = querysDF.groupby('session_id')['rawContent'].apply(lambda s: "%s" % ','.join(s))
+    # print("Past Queries, ", session_queries.values, '\n')
+
+    # build tfidf recommendation sparse matrix.
+    tfidf = TfidfVectorizer()
+    queries_tfidf = tfidf.fit_transform(all_queries.values)
+
+    # search by similarity. second best. Best match maybe in same history and results in empty recommendation.
+    # maybe good to loop until no empty set from set.difference()
+    matchInd = cosine_similarity(tfidf.transform([searchQuery.lower()]), queries_tfidf).argsort()[0][-2]
+    matchedString = all_queries.values[matchInd]
+    print('searched', searchQuery, ' result: ', matchedString)
+
+    # excluded search keywords.
+    possible_recommendations_set = set(matchedString.split(',')).difference(set(searchQuery.split(',')))
+    # print('possible recommendations: ', possible_recommendations_set)
+    recommendations = list(possible_recommendations_set)
+    # print(recommendations)
+
+    # returns 1 recommendations randomly.
+    result = random.choice(recommendations)
+    return result

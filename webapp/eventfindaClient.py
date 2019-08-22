@@ -43,7 +43,7 @@ def call_api(url):
     return data
 
 
-def searchEventsByFreeText(queryText):
+def searchEventsByFreeText(queryText, simpleResponse):
     url = f"http://api.eventfinda.sg/v2/events.json?q=({queryText})&rows=5"  # ok
 
     data = call_api(url)
@@ -52,6 +52,8 @@ def searchEventsByFreeText(queryText):
     suggestions = []
     items = []
     image = ''
+    item = ''
+
     fulfillmentMessages_dict = {}
 
     if data['@attributes']["count"] != 0:
@@ -70,23 +72,17 @@ def searchEventsByFreeText(queryText):
                 "buttons": card_button
             }
 
-            item = {
-                "optionInfo": {
-                    "key": event["name"],
-                    "synonyms": [
-                        event["name"]
-                    ]
-                },
-                "description": event["location"]["name"] + " " + event["datetime_summary"],
-                "image": image,
-                "title": event["name"]
-            }
+            item = build_item(event["name"], event, image)
 
             fulfillmentMessages_dict = {"card": card}
             # fulfillmentMessages_dict = {"card": item}
             suggestions.append({"title": event["name"][:23] + '..' if len(event['name']) > 23 else event['name']})
             fulfillmentMessages.append(fulfillmentMessages_dict)
             items.append(item)
+
+        # hack carouselSelect items 2 to 10 bug.
+        if len(items) == 1:
+            items.append(build_item(event["name"] + ' - 1', event, image))
 
         result = {
             "fulfillmentMessages": fulfillmentMessages,
@@ -99,7 +95,7 @@ def searchEventsByFreeText(queryText):
                         "items": [
                             {
                                 "simpleResponse": {
-                                    "textToSpeech": "Here are the results: "
+                                    "textToSpeech": simpleResponse
                                 }
                             }
                         ],
@@ -125,6 +121,21 @@ def searchEventsByFreeText(queryText):
 
     # return 'We have following events: \r\n' + result + '. Which event you want to check more details?'
     return result, data
+
+
+def build_item(event_name, event, image):
+    item = {
+        "optionInfo": {
+            "key": event_name,
+            "synonyms": [
+                event_name
+            ]
+        },
+        "description": event["location"]["name"] + " " + event["datetime_summary"],
+        "image": image,
+        "title": event_name
+    }
+    return item
 
 
 def recommends(filename, searchQuery):

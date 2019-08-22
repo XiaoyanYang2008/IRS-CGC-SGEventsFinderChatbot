@@ -14,6 +14,14 @@ FILE_SESSION_DATA_CSV = os.path.join('db', 'session-data.csv')
 
 app = Flask(__name__)
 
+'''
+recommendation:
+build queries into csv for a given sessionid
+td-idf  and cons-similarity
+search, unseperate, remove similar keys,
+
+'''
+
 
 def parseSessionID(session_id_str):
     if session_id_str is None or session_id_str == '':
@@ -66,8 +74,33 @@ def main():
         insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_QUERY_TEXT, queryText)
 
         queryText = (("+".join(queryText)).replace(" ", "-")).lower()
-        resp, data = searchEventsByFreeText(queryText)
+        resp, data = searchEventsByFreeText(queryText, "Here are the results: ")
         insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
+    elif intent_name == "Recommendation":
+
+        df = pd.read_csv(FILE_SESSION_DATA_CSV)
+
+        df_session = df[df['session_id'] == session_id]
+
+        queryText = ''
+
+        if not df_session.empty:
+            searchQuery = df_session.groupby('session_id')['rawContent'].apply(lambda s: "%s" % ','.join(s)).values[
+                0].lower()
+            queryText = recommends(FILE_SESSION_DATA_CSV, searchQuery)
+            resp, data = searchEventsByFreeText(queryText,
+                                                "We recommends " + queryText + ". And here are the results: ")
+            insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
+        else:
+            resp = {
+                "fulfillmentText": "Please search some events first before recommendations."
+            }
+        # queryText = req["queryResult"]["parameters"]["queryText"]
+        # insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_QUERY_TEXT, queryText)
+        #
+        # queryText = (("+".join(queryText)).replace(" ", "-")).lower()
+
+
 
     elif intent_name == "GetWeather":
         resp_text = weatherClient.getWeatherText(req)

@@ -154,13 +154,19 @@ def recommends(filename, searchQuery):
     queries_tfidf = tfidf.fit_transform(all_queries.values)
 
     # search by similarity. second best. Best match maybe in same history and results in empty recommendation.
-    # maybe good to loop until no empty set from set.difference()
-    matchInd = cosine_similarity(tfidf.transform([searchQuery.lower()]), queries_tfidf).argsort()[0][-2]
-    matchedString = all_queries.values[matchInd]
-    print('searched', searchQuery, ' result: ', matchedString)
+    vals = cosine_similarity(tfidf.transform([searchQuery.lower()]), queries_tfidf).argsort()[0][::-1]
+    possible_recommendations_set = ''
 
-    # excluded search keywords.
-    possible_recommendations_set = set(matchedString.split(',')).difference(set(searchQuery.split(',')))
+    # loop until no empty set from set.difference()
+    for i in vals:
+        matchedString = all_queries.values[i]
+        print('searched', searchQuery, ' result: ', matchedString)
+
+        # excluded search keywords.
+        possible_recommendations_set = set(matchedString.split(',')).difference(set(searchQuery.split(',')))
+        if len(possible_recommendations_set) > 0:
+            break
+
     # print('possible recommendations: ', possible_recommendations_set)
     recommendations = list(possible_recommendations_set)
     # print(recommendations)

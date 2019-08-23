@@ -2,7 +2,9 @@ class Config(object):
     #EventFinda
     EF_API_USERNAME = 'eventfindachatbot'
     EF_API_PASSWORD = 'nyrp2bhh98nt'
-    EF_GEN_URL = 'http://api.eventfinda.sg/v2/events.json?row=10t&$q=%s&order=popularity'
+    EF_GEN_URL = 'http://api.eventfinda.sg/v2/events.json?row=10&fields=event:(url,name,description,images,sessions),' \
+                 'session:(timezone,' \
+                 'datetime_start)&q=%s&order=popularity'
     # Firebase config
     FIREBASE_APIKEY = "apiKey",
     FIREBASE_authDomain = "projectId.firebaseapp.com"

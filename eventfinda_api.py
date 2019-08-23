@@ -19,7 +19,8 @@ def parse_response(data):
         print("Data mismatch!")
 
 def query_ef_api(query):
-    request_url = URL.format(query)
+    request_url = URL%(query)
+    print(request_url)
     response = requests.get(request_url, auth=HTTPBasicAuth(USERNAME, PASSWORD))
     if response.ok:
         return parse_response(response.content)

@@ -19,28 +19,51 @@ def main():
     dialog_request = request.get_json(silent=True,force=True)
     dialog_intent = dialog_request["queryResult"]["intent"]["displayName"]
     dialog_session = dialog_request['session']
+    print(dialog_intent)
+    print(dialog_request)
+    if dialog_intent == 'events.search':
+        pass
     params = parse_params(dialog_intent, dialog_request)
-
+    if params:
+        search_query = dialog_request['queryResult']['parameters'][params[0]]
+    else: search_query = "marathon"
 
     #Lots of processing
     answer = Answer.Answer()
     cards = []
-    api_responses = eventfinda_api.query_ef_api("Cycling")
-
+    items = []
+    suggestions = []
+    api_responses = eventfinda_api.query_ef_api(search_query)
+    #answer.add_followupEventInput("eventsearch-followup",[])
     if api_responses:
+        answer.add_google_payload()
+        answer.test_list()
+        #test answer
+        #----------------------------------------------------------------------------------#
+        # handbreak = 0
+        # for event in api_responses:
+        #     name = event['name']
+        #     description = event['description']
+        #     image_url = event['images']['images'][0]['transforms']['transforms'][3]['url']
+        #     button = [{"text": "button text","postback": "http://assistant.google.com/"}]
+        #     card = answer.create_card(title=name,card_text=description,image_url=image_url)
+        #     item = answer.create_item(name,description,image_url)
+        #     suggestion = name
+        #     #print(card)
+        #     if handbreak < 3:
+        #         answer.add_fulfillmentMessage(card)
+        #         answer.add_payload(suggestion,item)
+        #         handbreak = handbreak + 1
+        # ----------------------------------------------------------------------------------#
+        #answer.reply.pop('fulfillmentText')
 
-        handbreak = 0
-        for event in api_responses:
-            name = event['name']
-            description = event['description']
-            image_url = event['images']['images'][0]['transforms']['transforms'][2]['url']
-            button = [{"text": "button text","postback": "http://assistant.google.com/"}]
-            card = answer.create_card(title=name,card_text=description,image_url=image_url)
-            #print(card)
-            if handbreak < 2:
-                answer.add_fulfillmentMessage(card)
-                handbreak = handbreak + 1
-
-    return Response(json.dumps(answer.reply), status=200, content_type="application/json")
+    #print(answer.reply)
+    if dialog_intent == "events.search - custom":
+        answer = Answer.Answer()
+        answer.add_google_payload()
+        answer.test_basicCard()
+        return Response(json.dumps(answer.reply), status=200, content_type="application/json")
+    else:
+        return Response(json.dumps(answer.reply), status=200, content_type="application/json")
 
 

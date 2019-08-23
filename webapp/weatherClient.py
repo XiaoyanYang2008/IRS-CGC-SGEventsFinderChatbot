@@ -9,6 +9,14 @@ def getWeatherText(req):
     weatherText = req["queryResult"]["parameters"]["weather"]
     weatherdate = req["queryResult"]["parameters"]["date"].split('T')[0]
     weatherdate = datetime.date(*(int(s) for s in weatherdate.split('-')))
+
+    if weatherText != '':
+        return getWeatherIntentHandler(weatherdate)
+    else:
+        return {"fulfillmentText": "Sorry, i didn't get your question!"}
+
+
+def getWeatherIntentHandler(weatherdate):
     today = datetime.datetime.today().date()
     deltaDate = weatherdate - today
     if deltaDate.days == 0:
@@ -16,17 +24,9 @@ def getWeatherText(req):
     else:
         API_ENDPOINT = f"https://api.data.gov.sg/v1/environment/4-day-weather-forecast?date={today}"
 
-    if weatherText != '':
-        return getWeatherIntentHandler(API_ENDPOINT, deltaDate)
-    else:
-        return {"fulfillmentText": "Sorry, i didn't get your question!"}
-
-
-def getWeatherIntentHandler(API_ENDPOINT, deltaDate):
     resp = requests.get(API_ENDPOINT)
     fulfillmentMessages = []
-    items = []
-    image = ''
+
     weatherJson = resp.json()
     if deltaDate.days == 0:
         deltadays = deltaDate.days
@@ -37,7 +37,8 @@ def getWeatherIntentHandler(API_ENDPOINT, deltaDate):
 
     temperature = str(forecast["temperature"]["low"]) + "°C~" + str(forecast["temperature"]["high"]) + "°C"
     wind_speed = str(forecast["wind"]["speed"]["low"]) + "km/h~" + str(forecast["wind"]["speed"]["high"]) + "km/h"
-    weatherText = forecast["forecast"] + ", temperature is: " + temperature + ", wind speed is: " + wind_speed
+    message = f"The weather on {weatherdate} is: "
+    weatherText = message + forecast["forecast"] + "\n Temperature: " + temperature + ", Wind speed: " + wind_speed
 
     card_button = [{"text": "More Details", "postback": 'check ' + weatherText}]
     image = {"url": f"https://www.nea.gov.sg/weather"}
@@ -49,21 +50,9 @@ def getWeatherIntentHandler(API_ENDPOINT, deltaDate):
         "buttons": card_button
     }
 
-    item = {
-        "optionInfo": {
-            "key": "Weather forecast",
-            "synonyms": [
-                "Weather forecast"
-            ]
-        },
-        "description": weatherText,
-        "image": image,
-        "title": "Weather forecast"
-    }
     fulfillmentMessages_dict = {"card": card}
     fulfillmentMessages.append(fulfillmentMessages_dict)
 
-    items.append(item)
     result = {
         "fulfillmentMessages": fulfillmentMessages,
         "payload": {
@@ -75,19 +64,11 @@ def getWeatherIntentHandler(API_ENDPOINT, deltaDate):
                     "items": [
                         {
                             "simpleResponse": {
-                                "textToSpeech": "The weather is: "
+                                "textToSpeech": f"{weatherText}"
                             }
                         }
-                    ],
-                },
-                "systemIntent": {
-                    "intent": "actions.intent.OPTION",
-                    "data": {
-                        "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
-                        "carouselSelect": {
-                            "items": items
-                        }
-                    }
+                    ]
+
                 }
             }
         }

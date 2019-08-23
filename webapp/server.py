@@ -103,10 +103,7 @@ def main():
 
 
     elif intent_name == "GetWeather":
-        resp_text = weatherClient.getWeatherText(req)
-        resp = {
-            "fulfillmentText": resp_text
-        }
+        resp = weatherClient.getWeatherText(req)
     else:
         resp = {
             "fulfillmentText": "Unable to find a matching intent. Try again."

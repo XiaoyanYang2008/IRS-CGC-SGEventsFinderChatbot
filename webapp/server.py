@@ -71,7 +71,7 @@ def main():
 
         queryText = (("+".join(queryText)).replace(" ", "-")).lower()
         resp, data = searchEventsByFreeText(queryText, "Here are the results: ")
-        insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
+        # insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
 
     elif intent_name == "Recommendation":
 

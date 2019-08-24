@@ -56,13 +56,15 @@ def getWeatherMessage(weatherdate):
         forecast = weatherJson["items"][deltadays]["general"]
     else:
         deltadays = deltaDate.days - 1
+        if deltadays > 3:
+            weatherText = f"Sorry there is no weather forecast for {weatherdate}"
+            return fulfillmentMessages, weatherText
         forecast = weatherJson["items"][0]["forecasts"][deltadays]
     temperature = str(forecast["temperature"]["low"]) + "°C~" + str(forecast["temperature"]["high"]) + "°C"
     wind_speed = str(forecast["wind"]["speed"]["low"]) + "km/h~" + str(forecast["wind"]["speed"]["high"]) + "km/h"
     message = f"The weather on {weatherdate} is: "
     weatherText = message + forecast["forecast"] + "\n Temperature: " + temperature + ", Wind speed: " + wind_speed
     return fulfillmentMessages, weatherText
-
 
 def setCard(weatherText):
     card_button = [{"text": "More Details", "postback": 'check ' + weatherText}]

@@ -12,6 +12,8 @@ import random
 from urllib.request import urlopen, Request
 
 import pandas as pd
+import weatherClient
+import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -210,8 +212,14 @@ def viewEventDetail(eventName):
                                           buttons_list))
             print(richResp_items)
             richResp_items.append(create_richResp_simpleResp("Do you need any further assistance?"))
-            print(richResp_items)
 
+            weatherdate = event["datetime_start"].split(' ')[0]
+            weatherdate = datetime.date(*(int(s) for s in weatherdate.split('-')))
+            weatherMessage = weatherClient.getWeatherMessage(weatherdate)
+            weatherCard = weatherClient.setCard(weatherMessage)
+            weatherItem = weatherClient.setItem(weatherMessage)
+            fulfillmentMessages.append({"card": weatherCard})
+            richResp_items.append(weatherItem)
         result = {
             "fulfillmentMessages": fulfillmentMessages,
             "payload": create_payload(True, richResp_items)

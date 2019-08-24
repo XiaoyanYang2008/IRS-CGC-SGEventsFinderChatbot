@@ -208,18 +208,25 @@ def viewEventDetail(eventName):
             buttons_list.append(create_button_dict("Go to Event Finda", "openUrlAction", event_url))
 
             richResp_items.append(create_richResp_simpleResp("Here is the event detail."))
-            print(richResp_items)
+            # print(richResp_items)
+
+            weatherdate = event["datetime_start"].split(' ')[0]
+            weatherdate = datetime.date(*(int(s) for s in weatherdate.split('-')))
+            _, weatherMessage = weatherClient.getWeatherMessage(weatherdate)
+
+            event_desc = weatherMessage + '\r\n\r\n' + event_desc
+
             richResp_items.append(
                 create_richResp_basicCard(event_name, (event_loc + " " + event_datetime), event_desc, image,
                                           buttons_list))
             print(richResp_items)
             richResp_items.append(create_richResp_simpleResp("Do you need any further assistance?"))
 
-            weatherdate = event["datetime_start"].split(' ')[0]
-            weatherdate = datetime.date(*(int(s) for s in weatherdate.split('-')))
-            weatherMessage = weatherClient.getWeatherMessage(weatherdate)
-            weatherCard = weatherClient.setCard(weatherMessage)
-            weatherItem = weatherClient.setItem(weatherMessage)
+            # weatherCard = weatherClient.setCard(weatherMessage)
+            # weatherItem = weatherClient.setItem(weatherMessage)
+            # richResp_items.append(
+            #     create_richResp_basicCard('', ('Weather Forecast'), weatherMessage, None,
+            #                               None))
             # fulfillmentMessages.append({"card": weatherCard})
             # richResp_items.append(weatherItem)
         result = {

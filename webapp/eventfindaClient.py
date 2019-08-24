@@ -218,8 +218,8 @@ def viewEventDetail(eventName):
             weatherMessage = weatherClient.getWeatherMessage(weatherdate)
             weatherCard = weatherClient.setCard(weatherMessage)
             weatherItem = weatherClient.setItem(weatherMessage)
-            fulfillmentMessages.append({"card": weatherCard})
-            richResp_items.append(weatherItem)
+            # fulfillmentMessages.append({"card": weatherCard})
+            # richResp_items.append(weatherItem)
         result = {
             "fulfillmentMessages": fulfillmentMessages,
             "payload": create_payload(True, richResp_items)

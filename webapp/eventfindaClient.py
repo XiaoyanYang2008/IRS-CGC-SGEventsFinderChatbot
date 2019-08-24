@@ -7,15 +7,16 @@ https://www.eventfinda.sg/api/v2/events
 
 # import json, urllib2, base64
 import base64
+import datetime
 import json
 import random
 from urllib.request import urlopen, Request
 
 import pandas as pd
-import weatherClient
-import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+import weatherClient
 
 # url_slugs doesn't seems to work category_slug works for
 
@@ -82,8 +83,9 @@ def searchEventsByFreeText(queryText, simpleResponse):
 
         # hack carouselSelect items 2 to 10 bug.
         if len(items) == 1:
-            items.append(build_item(event["name"] + ' - 1', event_loc + " " + event_datetime, image, event["name"],
-                                    [].extend(event["name"])))
+            items.append(
+                build_item(event["name"] + ' - 1', event_loc + " " + event_datetime, image, event["name"] + ' - 1',
+                           [].extend(event["name"])))
 
         result = {
             "fulfillmentMessages": fulfillmentMessages,

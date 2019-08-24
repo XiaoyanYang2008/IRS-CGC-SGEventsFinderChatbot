@@ -67,9 +67,10 @@ def main():
 
     if intent_name == "SearchEvent":
         queryText = req["queryResult"]["parameters"]["queryText"]
-        insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_QUERY_TEXT, queryText)
 
         queryText = (("+".join(queryText)).replace(" ", "-")).lower()
+
+        insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_QUERY_TEXT, queryText)
         resp, data = searchEventsByFreeText(queryText, "Here are the results: ")
         # insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
 
@@ -84,7 +85,9 @@ def main():
         if not df_session.empty:
             searchQuery = df_session.groupby('session_id')['rawContent'].apply(lambda s: "%s" % ','.join(s)).values[
                 0].lower()
+
             queryText = recommends(FILE_SESSION_DATA_CSV, searchQuery)
+
             resp, data = searchEventsByFreeText(queryText,
                                                 "We recommends " + queryText + ". And here are the results: ")
             insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)

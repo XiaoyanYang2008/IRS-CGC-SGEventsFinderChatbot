@@ -65,17 +65,14 @@ def main():
 
     intent_name = req["queryResult"]["intent"]["displayName"]
 
-    if intent_name == "GetPriceIntent":
-        coinname = req["queryResult"]["parameters"]["coinname"]
-        # resp_text = getPriceIntentHandler(coinname)
-
-    elif intent_name == "SearchEvent":
+    if intent_name == "SearchEvent":
         queryText = req["queryResult"]["parameters"]["queryText"]
         insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_QUERY_TEXT, queryText)
 
         queryText = (("+".join(queryText)).replace(" ", "-")).lower()
         resp, data = searchEventsByFreeText(queryText, "Here are the results: ")
         insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
+
     elif intent_name == "Recommendation":
 
         df = pd.read_csv(FILE_SESSION_DATA_CSV)
@@ -100,10 +97,17 @@ def main():
         #
         # queryText = (("+".join(queryText)).replace(" ", "-")).lower()
 
-
+    elif intent_name == "SearchEvent - viewdetails":
+        print("SearchEvent - View Details")
+        if req["queryResult"]["queryText"] == "actions_intent_OPTION":
+            outputContext = req["originalDetectIntentRequest"]["payload"]["inputs"][0]["arguments"][0]["textValue"]
+            outputContext = outputContext.replace("view detail of ", "")
+        outputContext = (outputContext.replace(" ", "-")).lower()
+        resp, data = viewEventDetail(outputContext)
 
     elif intent_name == "GetWeather":
         resp = weatherClient.getWeatherText(req)
+
     else:
         resp = {
             "fulfillmentText": "Unable to find a matching intent. Try again."

@@ -90,7 +90,7 @@ def main():
 
             resp, data = searchEventsByFreeText(queryText,
                                                 "We recommends " + queryText + ". And here are the results: ")
-            insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
+            # insertData(FILE_SESSION_DATA_CSV, session_id, DATATYPE_EVENTS_BY_FREE_TEXT_DATA, data)
         else:
             resp = {
                 "fulfillmentText": "Please search some events first before recommendations."

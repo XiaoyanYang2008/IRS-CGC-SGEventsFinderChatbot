@@ -160,11 +160,11 @@ def recommends(filename, searchQuery):
 
     # loop until no empty set from set.difference()
     for i in vals:
-        matchedString = all_queries.values[i]
-        print('searched', searchQuery, ' result: ', matchedString)
+        similar_queries = all_queries.values[i]
+        print('searched', searchQuery, ' result: ', similar_queries)
 
         # excluded search keywords.
-        possible_recommendations_set = set(matchedString.split(',')).difference(set(searchQuery.split(',')))
+        possible_recommendations_set = set(similar_queries.split(',')).difference(set(searchQuery.split(',')))
         if len(possible_recommendations_set) > 0:
             break
 

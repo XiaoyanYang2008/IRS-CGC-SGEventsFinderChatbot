@@ -18,12 +18,12 @@ def test():
 
     # searchQuery = 'kids,childplay'
     result = recommends(filename, searchQuery)
-    print('searchQuery: ', searchQuery, ' single result:', result)
+    print('searchQuery: ', searchQuery, ' single result:', result, '\r\n')
 
     searchQuery = 'dance'
 
     result = recommends(filename, searchQuery)
-    print('searchQuery: ', searchQuery, ' single result:', result)
+    print('searchQuery: ', searchQuery, ' single result:', result, '\r\n')
 
 
 def main():

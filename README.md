@@ -1,6 +1,6 @@
 # SECTION 1 : PROJECT TITLE
 ### Singapore Event Finder Chatbot.
-![logo]:(resources/event-finder.png)
+![logo](resources/event-finder.png)
 
 # SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 write something here about the project?

@@ -21,8 +21,33 @@ TODO: link to youtube?
 1. Download the zip file and import the agent to your Dialogflow account.
 2. Make sure Agent's Fulfilment Webhook url is pointing to https://www.tealeeseng.com/chat/
 3. Try on "See how it works in Google Assistant." link. note: test console will not response as it doesn't provide features to meet our need, e.g. displaying images. 
+
 ## Developer Guide
 
+To run Webhook server.
+1. python3 -m venv IRS
+2. source IRS/bin/activate
+3. git clone https://github.com/XiaoyanYang2008/IRS-CGC-SGEventsFinderChatbot
+4. cd IRS-CGC-SGEventsFinderChatbot
+5. pip3 install -r webapp/requirements.txt
+6. cd webapp/
+7. python3 server.py
+8. In another terminal, ./ngrok http 5001 
+   for Dialogflow Fulfillment Webhook url. Take https ngrok URL as Google Assistant demand https channel. 
+9. To debug, 
+    - kill server.py at step 7, and 
+    - runs pycharm community edition. 
+    - open project on folder, IRS-CGC-SGEventsFinderChatbot. 
+    - Mark webapps folder as Source Root, 
+    - setup Project Interpreter with existing VirtualEnv" 
+    - debug server.py
+
+
+To run Dialogflow agent,
+1. create a new Dialogflow agent.
+2. import ISS-Singapore-Events-Finder-xxxxx.zip into agent.
+3. Update Fulfillment Webhook url. Takes https URL.
+4. on Google Assistant, says "Talk to my test app"
 
 
 # SECTION 6 : PROJECT REPORT / PAPER

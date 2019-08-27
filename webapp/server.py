@@ -105,7 +105,9 @@ def main():
         if req["queryResult"]["queryText"] == "actions_intent_OPTION":
             outputContext = req["originalDetectIntentRequest"]["payload"]["inputs"][0]["arguments"][0]["textValue"]
             outputContext = outputContext.replace("view detail of ", "")
-        outputContext = (outputContext.replace(" ", "-")).lower()
+        outputContext = (outputContext.replace(" - ", "-")).lower()
+        outputContext = outputContext.replace(" ", "-")
+        outputContext = outputContext.encode("utf-8")
         resp, data = viewEventDetail(outputContext)
 
     elif intent_name == "GetWeather":

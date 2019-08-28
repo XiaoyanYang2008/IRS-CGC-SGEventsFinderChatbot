@@ -107,7 +107,7 @@ def main():
             outputContext = outputContext.replace("view detail of ", "")
         outputContext = (outputContext.replace(" - ", "-")).lower()
         outputContext = outputContext.replace(" ", "-")
-        outputContext = outputContext.encode("utf-8")
+        #outputContext = outputContext.encode("utf-8")
         resp, data = viewEventDetail(outputContext)
 
     elif intent_name == "GetWeather":

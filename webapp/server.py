@@ -1,5 +1,5 @@
 import csv
-import os
+import os,re
 
 from flask import Flask, Response, request
 
@@ -105,9 +105,10 @@ def main():
         if req["queryResult"]["queryText"] == "actions_intent_OPTION":
             outputContext = req["originalDetectIntentRequest"]["payload"]["inputs"][0]["arguments"][0]["textValue"]
             outputContext = outputContext.replace("view detail of ", "")
-        outputContext = (outputContext.replace(" - ", "-")).lower()
+        outputContext = re.sub('[^A-Za-z0-9- ]+', '', outputContext)
+        outputContext = outputContext.replace(" - ", "-")
         outputContext = outputContext.replace(" ", "-")
-        #outputContext = outputContext.encode("utf-8")
+        outputContext = outputContext.lower()
         resp, data = viewEventDetail(outputContext)
 
     elif intent_name == "GetWeather":

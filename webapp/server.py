@@ -105,7 +105,6 @@ def main():
         if req["queryResult"]["queryText"] == "actions_intent_OPTION":
             outputContext = req["originalDetectIntentRequest"]["payload"]["inputs"][0]["arguments"][0]["textValue"]
             outputContext = outputContext.replace("view detail of ", "")
-        outputContext = re.sub('[^A-Za-z0-9- ]+', '', outputContext)
         outputContext = outputContext.replace(" - ", "-")
         outputContext = outputContext.replace(" ", "-")
         outputContext = outputContext.lower()

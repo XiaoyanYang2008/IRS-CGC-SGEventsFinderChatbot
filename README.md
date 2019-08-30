@@ -8,7 +8,6 @@ write something here about the project?
 # SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 | Official Full Name | Student ID (MTech Applicable)| Work Items (Who Did What) | Email (Optional) |
 | :---: | :---: | :---: | :---: |
-| |  | Business idea generation, UI Design | @u.nus.edu |
 | TEA LEE SENG | A0198538J | Business idea generation, Google Assistant UI, API integration, Recommendation module | e0402079@u.nus.edu / TEALEESENG@gmail.com |
 | NG SIEW PHENG | A0198525R  | Google Assistant UI, Search Event intent module, project video | e0402066@u.nus.edu |
 | YANG XIAOYAN| A0056720L | Business idea generation, Google Assistant UI, API integratio, Weather module, project report and video| e0401594@u.nus.edu |

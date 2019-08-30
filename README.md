@@ -52,8 +52,3 @@ To run Dialogflow agent,
 # SECTION 6 : PROJECT REPORT / PAPER
 
 
-# SECTION 7 : MISCELLANEOUS
-
-as per https://github.com/IRS-RS/IRS-RS-2019-03-09-IS1PT-GRP-YOSS
-
-sample markup, https://raw.githubusercontent.com/IRS-RS/IRS-RS-2019-03-09-IS1PT-GRP-YOSS/master/README.md

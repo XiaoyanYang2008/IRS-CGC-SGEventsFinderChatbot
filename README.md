@@ -3,7 +3,16 @@
 ![logo](resources/event-finder.png)
 
 # SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-write something here about the project?
+Singapore is one of the most popular tourist destinations in Asia. Most tourists are exposed to the typical tourist attractions like Sentosa and Zoo. Event Finda provides a unique range of events happening in Singapore, from exhibition for kids to dine & wine events for adults. However, their website is not the easiest to navigate and to find the events that are of interest to visitors.
+
+This chatbot agent is created to introduce these unique events to tourists in a more interactive way. Tourists can ask the chatbot to find them event based on keywords. Based on the keywords provided by the tourists, our chatbot is also capable of recommending other events that the tourists might be interested in, based on their search so far with the chatbot. Even locals can ask our chatbot for event recommendation. 
+
+Creation of the dialog intent with a good list of training phrases, has been a never ending task as we test proof the agent. We found that if we keep the training phrase too simple, the DialogFlow is unable to clearly identify the correct intent, often end up triggering the wrong intent. If we added too many entities in a single phrase, Dialogflow can’t match the intent and end up in the fallback intent.
+
+The next biggest challenge is the integration to Google assistant. Documentation from both DialogFlow and Actions on Google is not detailed enough. And the lack of documentation for DialogFlow V2 API is also causing us a lot of time in debugging the code, instead of training our chatbot.
+
+Eventually, we managed to get the basics working and able to successfully deploy a working chatbot agent. There are still test scenarios where the chatbot is unable to detect the intent. With more time, we can enhance the agent.
+
 
 # SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 | Official Full Name | Student ID (MTech Applicable)| Work Items (Who Did What) | Email (Optional) |
@@ -11,7 +20,7 @@ write something here about the project?
 | TEA LEE SENG | A0198538J | Business idea generation, Google Assistant UI, API integration, Recommendation module | e0402079@u.nus.edu / TEALEESENG@gmail.com |
 | NG SIEW PHENG | A0198525R  | Google Assistant UI, Search Event intent module, project video | e0402066@u.nus.edu |
 | YANG XIAOYAN| A0056720L | Business idea generation, Google Assistant UI, API integratio, Weather module, project report and video| e0401594@u.nus.edu |
-| |  | Business idea generation, domain expert interview, data gathering and preparation, project report | @u.nus.edu |
+| Tarun Rajkumar | A0198522X | Business idea generation, domain expert interview, data gathering and preparation, project report |  |
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 SGEventFinderChatbot.mp4 - https://drive.google.com/file/d/1aH8vi-anz7sLB1W0GdiFZqQOuSOOSJ1i/view?usp=sharing

@@ -58,6 +58,4 @@ To run Dialogflow agent,
 4. on Google Assistant, says "Talk to my test app"
 
 
-# SECTION 6 : PROJECT REPORT / PAPER
-
 

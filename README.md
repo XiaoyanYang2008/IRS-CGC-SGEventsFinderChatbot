@@ -11,7 +11,7 @@ write something here about the project?
 | |  | Business idea generation, UI Design | @u.nus.edu |
 | TEA LEE SENG | A0198538J | Business idea generation, Google Assistant UI, API integration, Recommendation module | e0402079@u.nus.edu / TEALEESENG@gmail.com |
 | NG SIEW PHENG | A0198525R  | Google Assistant UI, Search Event intent module, project video | e0402066@u.nus.edu |
-| |  | Business idea generation, KIE server design, OptaPlanner rules, Overall integration | @u.nus.edu |
+| YANG XIAOYAN| A0056720L | Business idea generation, Google Assistant UI, API integratio, Weather module, project report and video| e0401594@u.nus.edu |
 | |  | Business idea generation, domain expert interview, data gathering and preparation, project report | @u.nus.edu |
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO

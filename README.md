@@ -49,6 +49,7 @@ To run Webhook server.
     - Mark webapps folder as Source Root, 
     - setup Project Interpreter with existing VirtualEnv" 
     - debug server.py
+    - note: uses pycharm 2019.1.x. pycharm 2019.2.x needs to comments out server.py in pydevd_dont_trace_files.py under pycharm program folder. Refers bug report, https://youtrack.jetbrains.com/issue/PY-37609
 
 
 To run Dialogflow agent,

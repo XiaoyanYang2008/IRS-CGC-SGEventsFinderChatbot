@@ -14,7 +14,7 @@ write something here about the project?
 | |  | Business idea generation, domain expert interview, data gathering and preparation, project report | @u.nus.edu |
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-SGEventFinderChatbot.mp4
+SGEventFinderChatbot.mp4 - https://drive.google.com/file/d/1aH8vi-anz7sLB1W0GdiFZqQOuSOOSJ1i/view?usp=sharing
 
 # SECTION 5 : USER GUIDE
 1. Download the zip file and import the agent to your Dialogflow account.

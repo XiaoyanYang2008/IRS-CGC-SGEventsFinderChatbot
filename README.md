@@ -8,14 +8,14 @@ write something here about the project?
 # SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 | Official Full Name | Student ID (MTech Applicable)| Work Items (Who Did What) | Email (Optional) |
 | :---: | :---: | :---: | :---: |
-|   |  | Business idea generation, UI Design | @u.nus.edu |
+| |  | Business idea generation, UI Design | @u.nus.edu |
 | TEA LEE SENG | A0198538J | Business idea generation, Google Assistant UI, API integration, Recommendation module | e0402079@u.nus.edu / TEALEESENG@gmail.com |
-| |  | Business idea generation, KIE server design, OptaPlanner rules, project video | @u.nus.edu |
+| NG SIEW PHENG | A0198525R  | Google Assistant UI, Search Event intent module, project video | e0402066@u.nus.edu |
 | |  | Business idea generation, KIE server design, OptaPlanner rules, Overall integration | @u.nus.edu |
 | |  | Business idea generation, domain expert interview, data gathering and preparation, project report | @u.nus.edu |
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-TODO: link to youtube?
+SGEventFinderChatbot.mp4
 
 # SECTION 5 : USER GUIDE
 1. Download the zip file and import the agent to your Dialogflow account.

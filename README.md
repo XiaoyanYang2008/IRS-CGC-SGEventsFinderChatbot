@@ -19,8 +19,8 @@ Eventually, we managed to get the basics working and able to successfully deploy
 | :---: | :---: | :---: | :---: |
 | TEA LEE SENG | A0198538J | Business idea generation, Google Assistant UI, API integration, Recommendation module | e0402079@u.nus.edu / TEALEESENG@gmail.com |
 | NG SIEW PHENG | A0198525R  | Google Assistant UI, Search Event intent module, project video | e0402066@u.nus.edu |
-| YANG XIAOYAN| A0056720L | Business idea generation, Google Assistant UI, API integratio, Weather module, project report and video| e0401594@u.nus.edu |
-| Tarun Rajkumar | A0198522X | Business idea generation, domain expert interview, data gathering and preparation, project report |  |
+| YANG XIAOYAN| A0056720L | Business idea generation, Google Assistant UI, API integration, Weather module, project report and video| e0401594@u.nus.edu |
+| Tarun Rajkumar | A0198522X | Business idea generation, Google Assistant UI,domain expert interview, data gathering and preparation, project report | e0402063@u.nus.edu |
 
 # SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 SGEventFinderChatbot.mp4 - https://drive.google.com/file/d/1aH8vi-anz7sLB1W0GdiFZqQOuSOOSJ1i/view?usp=sharing
